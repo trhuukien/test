@@ -1,0 +1,453 @@
+/*-------------------Templace [Menu+Footer]--------------------------*/
+.header-area {
+  background: none repeat scroll 0 0 black;
+  height: auto;
+  position: Fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+header{
+  margin-top: 30px;
+}
+.header-area a {
+  color: white;
+  padding: 5px;
+}
+.user-menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.user-menu li {
+  display: inline-block;
+}
+.user-menu li a {
+  display: block;
+  font-size: 15px;
+  margin-right: 5px;
+  padding: 4px;
+}
+.user-menu li a i.fa {
+  margin-right: 5px;
+}
+.hot-line{
+  text-align: right;
+}
+.hot-line ul li p{
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding-top: 2px;
+}
+a:focus { outline: 0px solid }
+body { font-family:Arial, Helvetica, sans-serif; }
+
+.mainmenu-area {
+background: #fbfbfb !important;
+font-family: "Roboto Condensed",sans-serif !important;
+width: 100% !important;}
+
+.navbar{
+  padding: 0 !important;
+}
+.navbar-nav .nav-item:hover .nav-link{
+  color: white !important;
+  background-color: #5a88ca;
+}
+.nav-link{
+  line-height: 50px;
+  padding: 0 20px !important;
+}
+
+
+.promo-area {
+  background:#fbfbfb;
+  color: #fff;
+  padding: 40px 0 40px;
+}
+
+.single-promo {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px 10px;
+    text-align: center;
+}
+.single-promo i {
+  font-size: 50px;
+}
+
+.single-promo:hover {color: #fff;background: #222;}
+.promo1 { background:#5a88ca;}
+.promo2 { background:#ffd900;}
+.promo3 { background:#fa8072;}
+.promo4 { background:#4abebd;}
+
+
+
+.single-product h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.footer-top-area {background: none repeat scroll 0 0 #333;
+color: #999;
+padding: 35px 0 80px 0;}
+
+
+.footer-bottom-area {background: #000;color: #fff;padding: 0;}
+.footer-about-us span {
+  color: #5a88ca;
+}
+.footer-wid-title {
+  font-family: raleway;
+  font-size: 30px;
+  font-weight: 100;color: #fff
+}
+
+.footer-about-us h2 {
+  font-weight: 200;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+}
+.footer-menu a {
+    display: block;
+    padding: 5px 0;color: #999
+}
+
+
+.footer-social a {
+  background: none repeat scroll 0 0 #5a88ca;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+  width: 40px;border: 1px solid #5a88ca;
+}
+
+.footer-social a:hover {background-color: #222;border-color: #666}
+
+.footer-social {margin-top: 20px}
+.newsletter-form input[type="email"] {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.newsletter-form input[type="submit"] {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px 20px;
+    text-transform: uppercase;border: 1px solid #5a88ca;
+}
+.newsletter-form input[type="submit"]:hover {background: #222;border-color: #666}
+.newsletter-form {
+    margin-top: 25px;
+}
+a {color: #5a88ca}
+a:hover, a:focus {color: #17a78b}
+.footer-bottom-area {
+  background: none repeat scroll 0 0 #000;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.footer-card-icon {
+    font-size: 30px;
+    text-align: right;
+}
+
+.footer-bottom-area {
+    height: 50px;
+}
+.footer-bottom-area .row{
+    line-height: 50px;
+}
+.footer-bottom-area .row p{
+    margin: 0;
+}
+
+/*-------------------End Templace [Menu+Footer]--------------------------*/
+
+
+
+
+
+
+
+
+
+.search input{
+  width: 250px !important;
+  border: 2px solid black;
+  height: 40px;
+  border-radius: 5px;
+}
+.search input:focus{
+  width: 300px !important;
+  border: none;
+  transition: .5s ease-in-out;
+}
+
+.content{
+  width: 100%;
+}
+.title-ct{
+  font-size: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #222222;
+  font-weight: bold;
+}
+.hr{
+  border: 2px solid grey;
+  background-color: grey;
+  width: 80px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.danhmuc ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.danhmuc ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+}
+.danhmuc a {
+    display: block;
+    padding: 5px 0;color: black
+}
+
+
+.pro{
+  margin-bottom: 10px;
+}
+.product-hover{
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.img-product{
+  position: relative;
+  color: gray;
+  font-size: 14px;
+}
+.view{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.view-detail{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: gray;
+}
+.item{
+  position: absolute;
+  padding: 15px;
+  background-color: white;
+  transition: .5s ease-in-out;
+  left: 0;
+  bottom: -200px;
+  width: 100%;
+}
+.detail{
+  padding: 5px;
+  display: block;
+  background-color: red;
+  color: white;
+}
+.detail:hover{
+  padding: 5px;
+  display: block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.item p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pro-new .item p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.product-hover:hover .item{
+  bottom: 0;
+}
+.product-hover{
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  box-shadow: gainsboro 0 0 5px;
+}
+.name-pd{
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.name-pd a{
+  color: black;
+}
+.price{
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.price del{
+  color: gray;
+  font-size: 12px;
+  margin-left: 10px;
+font-weight: bold;
+}
+.end-row{
+  width: 100%;
+  background: #fbfbfb !important;
+}
+
+/*-------------------End Index--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------End Pro--------------------------*/
+
+
+
+.comment{
+  margin-top: 30px;
+}
+.comment .row-1{
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+.comment .row-1 .col{
+  padding: 0;
+}
+.comment .row-1 .span-1{
+  font-size: 12px;
+  font-weight: lighter;
+  color: #17a78b;
+}
+.comment .row-1 .span-2{
+  font-size: 9px;
+  font-weight: lighter;
+  float: right;
+}
+.comment .row-2{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.comment .row-2 p{
+  color: #17a78b;
+}
+.name-user{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.img-user img{
+  border-radius: 50%;
+}
+.img-detail{
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 10px;
+}
+a p.name_detail{
+  color: red;
+  font-size: 20px;
+  margin: 10px 0;
+}
+a p.name_detail:hover{
+  color: #17a78b;
+}
+.img-detail img:hover{
+  transform: scale(1.1);
+  transition: all .5s ease-in-out;
+  border-radius: 10px;
+}
+h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.name-detail a{
+  color: black;
+}
+.name-detail a:hover{
+  text-decoration: none;
+}
+.xemngay{
+  margin-top: 10px;
+}
+.xemngay a{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+}
+.xemngay a:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+}
+pre{
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre-wrap;
+  width: 100%;
+}
+pre img{
+  max-width: 100%;
+  width: 100%;
+}
+.comment pre{
+  width: 100%;
+}
+.footer-about-us p{
+  color: #999999; 
+  font-size: 16px;
+  text-align: justify;
+}
+
+.action a{
+  color: black;
+}
+.action a:hover{
+  color: red;
+}
